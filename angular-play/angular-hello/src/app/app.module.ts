@@ -8,6 +8,7 @@ import { OrdersComponent } from './orders/orders.component';
 import { SearchBoxDirective } from './search-box.directive';
 import { SalesDataService } from './sales-data.service';
 import { SalesData2Service } from './sales-data2.service';
+import { InitCapsPipe } from './shared/init-caps.pipe';
 
 
 
@@ -16,7 +17,8 @@ import { SalesData2Service } from './sales-data2.service';
     AppComponent,
     CustomerComponent,
     OrdersComponent,
-    SearchBoxDirective
+    SearchBoxDirective,
+    InitCapsPipe
   ],
   imports: [
     BrowserModule
